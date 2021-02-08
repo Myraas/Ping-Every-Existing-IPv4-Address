@@ -9,20 +9,20 @@ while($a+$b+$c+$d -lt 1021){
     if($d -eq 255){
         if($a+$b+$c -eq 765){}
         else{
-        $d = 0
-        $c++
+            $d = 0
+            $c++
         }
         if($c -eq 255){
             if($a+$b -eq 510){}
             else{
-            $c = 0
-            $b++
+                $c = 0
+                $b++
             }
             if($b -eq 255){
                 if($a = 255){}
                 else{
-                $b = 0
-                $a++
+                    $b = 0
+                    $a++
                 }
             }
             else{}
