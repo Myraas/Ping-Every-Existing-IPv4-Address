@@ -29,6 +29,5 @@ while($a+$b+$c+$d -lt 1021){
         }
         else{}
     }
-    else{}
-        
+    else{}       
 }
